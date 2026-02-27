@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com" rel="stylesheet">
     <title>Responsive Design</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
 <body>
@@ -25,16 +25,18 @@
             </div>
         </section>
         <section class="bellow-header">
-            <input type="checkbox" id="menu-bar">
-            <label for="menu-bar" class="menu-icon">&#9776; Menu</label>
+            <!-- Hidden checkbox -->
+            <input type="checkbox" id="menu-toggle">
 
-            <nav class="menu-list">
-                <ul>
-                    <li><a href="#">Village</a></li>
-                    <li><a href="#" class="academy">Academy</a></li>
-                    <li><a href="#">Jutsu</a></li>
-                    <li><a href="#">Missions</a></li>
-                </ul>
+            <!-- Burger icon -->
+            <label for="menu-toggle" class="burger">☰ Menu</label>
+
+            <!-- Navigation -->
+            <nav class="nav">
+                <a bellow-headerhref="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
             </nav>
         </section>
     </header>
@@ -42,7 +44,7 @@
     <main>
         <section class="welcome-container">
             <h1>Welcome to Konoha!</h1>
-            <p>Train hard, never give up, and become the greatest ninja! Dattebayo!</p>
+            <p>Train hard, never give up, and become the <br> greatest ninja! Dattebayo!</p>
         </section>
 
         <section class="main-container">
@@ -125,7 +127,7 @@
         </section>
     </main>
     <footer class="footer">
-        <p>© 2024 Hidden Leaf Village Academy. Shinobi Training Center. All jutsu reserved.</p>
+        <p>© 2024 Hidden Leaf Village Academy. </p>
     </footer>
 
 </body>
