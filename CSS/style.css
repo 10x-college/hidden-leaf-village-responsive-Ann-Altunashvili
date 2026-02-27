@@ -161,11 +161,10 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    /* შავი ფერი 50% გამჭვირვალობით */
     z-index: 1;
 }
 
-/* ტექსტი overlay-ის ზემოთ */
+
 .welcome-container h1,
 .welcome-container p {
     position: relative;
@@ -194,14 +193,10 @@ body {
 
 .article {
     width: 324px;
-    /* ფიქსირებული სიგანე */
     height: 200px;
-    /* ფიქსირებული სიმაღლე */
     background-color: white;
     border-radius: 12px;
-    /* დამრგვალებული კუთხეები */
     border-top: 4px solid #FF6B1A;
-    /* ზედა საზღვარი სტაფილოსფერი */
     opacity: 1;
     position: relative;
     display: flex;
